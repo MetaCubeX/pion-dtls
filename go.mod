@@ -1,11 +1,12 @@
 module github.com/pion/dtls/v3
 
+go 1.20
+
 require (
-	github.com/pion/logging v0.2.4
-	github.com/pion/transport/v4 v4.0.1
+	github.com/metacubex/pion-transport/v4 v4.0.1
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/crypto v0.45.0
-	golang.org/x/net v0.47.0
+	golang.org/x/crypto v0.33.0
+	golang.org/x/net v0.35.0
 )
 
 require (
@@ -13,8 +14,3 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-go 1.24.0
-
-// Retract version with broken RSA interop with OpenSSL DTLS 1.2.
-retract v3.1.0

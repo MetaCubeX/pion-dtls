@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/metacubex/pion-transport/v4/dpipe"
+	"github.com/metacubex/pion-transport/v4/test"
 	"github.com/pion/dtls/v3/pkg/crypto/selfsign"
 	dtlsnet "github.com/pion/dtls/v3/pkg/net"
-	"github.com/pion/transport/v4/dpipe"
-	"github.com/pion/transport/v4/test"
 	"github.com/stretchr/testify/assert"
 )
 

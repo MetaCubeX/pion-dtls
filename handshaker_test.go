@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/metacubex/pion-transport/v4/logging"
+	"github.com/metacubex/pion-transport/v4/test"
 	"github.com/pion/dtls/v3/pkg/crypto/selfsign"
 	"github.com/pion/dtls/v3/pkg/crypto/signaturehash"
 	"github.com/pion/dtls/v3/pkg/protocol/alert"
 	"github.com/pion/dtls/v3/pkg/protocol/handshake"
 	"github.com/pion/dtls/v3/pkg/protocol/recordlayer"
-	"github.com/pion/logging"
-	"github.com/pion/transport/v4/test"
 	"github.com/stretchr/testify/assert"
 )
 

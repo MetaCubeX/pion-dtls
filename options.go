@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/metacubex/pion-transport/v4/logging"
 	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
 	"github.com/pion/dtls/v3/pkg/protocol/handshake"
-	"github.com/pion/logging"
 )
 
 // ServerOption configures a DTLS server.

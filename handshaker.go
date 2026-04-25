@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/metacubex/pion-transport/v4/logging"
 	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
 	"github.com/pion/dtls/v3/pkg/crypto/signaturehash"
 	"github.com/pion/dtls/v3/pkg/protocol/alert"
 	"github.com/pion/dtls/v3/pkg/protocol/handshake"
-	"github.com/pion/logging"
 )
 
 // [RFC6347 Section-4.2.4]

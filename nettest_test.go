@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/transport/v4/test"
+	"github.com/metacubex/pion-transport/v4/test"
 	"golang.org/x/net/nettest"
 )
 

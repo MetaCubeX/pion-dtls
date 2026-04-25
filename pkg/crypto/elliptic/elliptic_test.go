@@ -5,7 +5,7 @@ package elliptic
 
 import (
 	crand "crypto/rand"
-	"errors"
+	"io"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -40,7 +40,7 @@ func TestGenerateKeypair_InvalidCurve(t *testing.T) {
 type failingReader struct{}
 
 func (failingReader) Read(p []byte) (int, error) {
-	return 0, errors.ErrUnsupported // any error is fine here.
+	return 0, io.ErrClosedPipe // any error is fine here.
 }
 
 func TestGenerateKeypair_RandFailure(t *testing.T) {
