@@ -9,11 +9,11 @@ import (
 	"errors"
 	"sync/atomic"
 
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/elliptic"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/prf"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/signaturehash"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/handshake"
 	"github.com/metacubex/pion-transport/v4/replaydetector"
-	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
-	"github.com/pion/dtls/v3/pkg/crypto/prf"
-	"github.com/pion/dtls/v3/pkg/crypto/signaturehash"
-	"github.com/pion/dtls/v3/pkg/protocol/handshake"
 )
 
 // State holds the dtls connection state and implements both encoding.BinaryMarshaler and

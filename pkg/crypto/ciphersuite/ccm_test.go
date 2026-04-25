@@ -8,8 +8,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/pion/dtls/v3/pkg/protocol"
-	"github.com/pion/dtls/v3/pkg/protocol/recordlayer"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/recordlayer"
 	"github.com/stretchr/testify/assert"
 )
 

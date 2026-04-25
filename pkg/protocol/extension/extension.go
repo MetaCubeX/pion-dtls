@@ -7,8 +7,8 @@ package extension
 import (
 	"encoding/binary"
 
-	"github.com/pion/dtls/v3/pkg/crypto/hash"
-	"github.com/pion/dtls/v3/pkg/crypto/signature"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/hash"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/signature"
 )
 
 // TypeValue is the 2 byte value for a TLS Extension as registered in the IANA

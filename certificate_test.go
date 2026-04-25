@@ -7,7 +7,7 @@ import (
 	"crypto/tls"
 	"testing"
 
-	"github.com/pion/dtls/v3/pkg/crypto/selfsign"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/selfsign"
 	"github.com/stretchr/testify/assert"
 )
 

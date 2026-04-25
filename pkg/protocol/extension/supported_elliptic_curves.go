@@ -6,7 +6,7 @@ package extension
 import (
 	"encoding/binary"
 
-	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/elliptic"
 )
 
 const (

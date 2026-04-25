@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/elliptic"
+	dtlsnet "github.com/metacubex/pion-dtls/v3/pkg/net"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/extension"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/handshake"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/recordlayer"
 	"github.com/metacubex/pion-transport/v4/dpipe"
 	"github.com/metacubex/pion-transport/v4/test"
-	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
-	dtlsnet "github.com/pion/dtls/v3/pkg/net"
-	"github.com/pion/dtls/v3/pkg/protocol/extension"
-	"github.com/pion/dtls/v3/pkg/protocol/handshake"
-	"github.com/pion/dtls/v3/pkg/protocol/recordlayer"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,8 +13,8 @@ import (
 	"crypto/x509"
 	"fmt"
 
-	"github.com/pion/dtls/v3/pkg/crypto/hash"
-	"github.com/pion/dtls/v3/pkg/crypto/signature"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/hash"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/signature"
 )
 
 // Algorithm is a signature/hash algorithm pairs which may be used in

@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
+	dtlsnet "github.com/metacubex/pion-dtls/v3/pkg/net"
 	"github.com/metacubex/pion-transport/v4/test"
-	dtlsnet "github.com/pion/dtls/v3/pkg/net"
 	"github.com/stretchr/testify/assert"
 )
 

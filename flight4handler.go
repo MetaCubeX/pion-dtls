@@ -9,16 +9,16 @@ import (
 	"crypto/rand"
 	"crypto/x509"
 
-	"github.com/pion/dtls/v3/internal/ciphersuite"
-	"github.com/pion/dtls/v3/pkg/crypto/clientcertificate"
-	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
-	"github.com/pion/dtls/v3/pkg/crypto/prf"
-	"github.com/pion/dtls/v3/pkg/crypto/signaturehash"
-	"github.com/pion/dtls/v3/pkg/protocol"
-	"github.com/pion/dtls/v3/pkg/protocol/alert"
-	"github.com/pion/dtls/v3/pkg/protocol/extension"
-	"github.com/pion/dtls/v3/pkg/protocol/handshake"
-	"github.com/pion/dtls/v3/pkg/protocol/recordlayer"
+	"github.com/metacubex/pion-dtls/v3/internal/ciphersuite"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/clientcertificate"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/elliptic"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/prf"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/signaturehash"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/alert"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/extension"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/handshake"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/recordlayer"
 )
 
 //nolint:gocognit,gocyclo,lll,cyclop,maintidx

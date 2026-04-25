@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	idtlsnet "github.com/metacubex/pion-dtls/v3/internal/net"
+	dtlsnet "github.com/metacubex/pion-dtls/v3/pkg/net"
 	"github.com/metacubex/pion-transport/v4/deadline"
-	idtlsnet "github.com/pion/dtls/v3/internal/net"
-	dtlsnet "github.com/pion/dtls/v3/pkg/net"
 )
 
 const (

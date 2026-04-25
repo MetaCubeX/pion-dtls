@@ -7,11 +7,11 @@ import (
 	"context"
 	"crypto/rand"
 
-	"github.com/pion/dtls/v3/pkg/crypto/elliptic"
-	"github.com/pion/dtls/v3/pkg/protocol"
-	"github.com/pion/dtls/v3/pkg/protocol/alert"
-	"github.com/pion/dtls/v3/pkg/protocol/extension"
-	"github.com/pion/dtls/v3/pkg/protocol/handshake"
+	"github.com/metacubex/pion-dtls/v3/pkg/crypto/elliptic"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/alert"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/extension"
+	"github.com/metacubex/pion-dtls/v3/pkg/protocol/handshake"
 )
 
 // renegotiationInfoSCSV is TLS_EMPTY_RENEGOTIATION_INFO_SCSV defined in RFC 5746.
